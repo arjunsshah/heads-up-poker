@@ -1,9 +1,7 @@
 <h1 align="center">Heads-Up Poker</h1>
 
 
-## 🏁 Getting Started (to run game locally)
-
-Follow the steps below, after cloning the repository:
+How to run the game locally: 
 
 ### 🖐 Requirements
 
