@@ -8,7 +8,8 @@ const Homepage = () => {
     return (
         <div className='Homepage'>
             <div className='homepage-menu'>
-                <img src={require('../assets/logo.png').default} width='200px' />
+                <div>Compete against your friends in a heads-up poker match!</div>
+                <img src={require('../assets/poker-logo.jpg').default} width='200px' />
                 <div className='homepage-form'>
                     <div className='homepage-join'>
                         <input type='text' placeholder='Game Code' onChange={(event) => setRoomCode(event.target.value)} />

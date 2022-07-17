@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 //pack of 108 cards (_ = reverse)
 export default [
     '0R', '1R', '1R', '2R', '2R', '3R', '3R', '4R', '4R', '5R', '5R', '6R', '6R', '7R', '7R', '8R', '8R', '9R', '9R', 'skipR', 'skipR', '_R', '_R', 'D2R', 'D2R',

@@ -6,12 +6,15 @@ a {
   color: #ffffff;
 }
 
+
+
 /* Homepage */
 .Homepage {
-  background-image: url('./assets/Landing-Page.gif');
+  /* background-image: url('./assets/Landing-Page.gif'); */
   background-size: cover;
   margin: 0;
   height: 100vh;
+  color: black;
 }
 
 .homepage-menu {
@@ -62,6 +65,10 @@ a {
 
 .backgroundColorY {
   background-image: url('./assets/backgrounds/bgY.png');
+}
+
+.backgroundColorPoker {
+  background-image: url('./assets/backgrounds/bgPoker.jpg');
 }
 
 /* UNO Cards */
@@ -131,13 +138,30 @@ a {
 .playerDeckText {
   font-size: 2rem;
   margin: 0 20px;
+  inline-size: 150px;
+  overflow-wrap: break-word;
+}
+
+.playerStats {
+  position: relative;
+  left: auto;
+  width: 150 px;
+  color: #808080;
+
 }
 
 /* Game.js Middle Row */
 .middleInfo {
   display: flex;
+  -webkit-text-stroke: 2px black;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+
+
+
 }
 
 .middleInfo>button {
@@ -228,6 +252,10 @@ a {
 .game-button.green:hover {
   top:2px;
   box-shadow: 0 4px 0 #348628, 0 6px 1px 1px rgba(0,0,0,.3), 0 8px 0 5px #2a6d20, 0 10px 0 5px #39822e, 0 13px 0 5px #1d4c16, 0 13px 1px 6px rgba(0,0,0,.3);
+}
+
+.game-button + .game-button {
+  margin-left: 75px;
 }
 
 /* Spinner */
