@@ -9,6 +9,7 @@ Players can chat live in game using the chat box feature!
 
 Utilizing websockets, this game can be uploaded to a virtual server
 
+![image](https://user-images.githubusercontent.com/63565969/179380572-491cd38f-7d50-48e4-a9b6-d9c687c4b5e4.png)
 
 
 ## How to run the game locally:
