@@ -1,6 +1,17 @@
 <h1 align="center">Heads-Up Poker</h1>
 
-How to run the game locally:
+This is a heads-up poker game where two friends can compete with one another for a high-stakes pot! This game is written in React and Javascript and utilizes socket.io to run this game locally on different websockets. 
+
+### Features
+Play heads-up poker with a friend with instant feedback and a clean UI!
+
+Players can chat live in game using the chat box feature!
+
+Utilizing websockets, this game can be uploaded to a virtual server
+
+
+
+## How to run the game locally:
 
 ### 🖐 Requirements
 
@@ -9,8 +20,6 @@ How to run the game locally:
 - Node
 
 **For Running:**
-
-- Change socket.IO endpoint on client side. To do this, go to `client/src/components/Game.js` and change line #26 from `const ENDPOINT = 'https://uno-online-multiplayer.herokuapp.com/'` to `const ENDPOINT = 'http://localhost:5000'`
 
 ### ⏳ Installation
 
@@ -51,24 +60,5 @@ Head over to http://localhost:3000/ and enjoy the game! 🎉
 
 <<<<<<< HEAD
 
-## 🤝 Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. The **Issues** tab is a good place to begin!
 
-1. Fork the project repo
-2. Clone the forked repo on your machine
-3. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-5. Push to the branch on your forked repo (`git push origin feature/AmazingFeature`)
-6. Open a pull request
-
-=======
-
-> > > > > > > ffd10e64a0a4b3322ea7832816647bf10975959e
-
-## ❤️ Acknowledgements
-
-- [Chirantan P](https://www.linkedin.com/in/chirantan-pradhan-76673019b/) for the background images
-- [AlexDer](https://alexder.itch.io/) for the UNO cards assets
-- [3mil1](https://codepen.io/3mil1) for the button designs
-- [Divyank](https://codepen.io/Pahlaz) for the chat box design
