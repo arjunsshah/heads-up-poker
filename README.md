@@ -1,8 +1,6 @@
 <h1 align="center">Heads-Up Poker</h1>
 
-## 🏁 Getting Started (to run game locally)
-
-Follow the steps below, after cloning the repository:
+How to run the game locally:
 
 ### 🖐 Requirements
 
@@ -51,6 +49,8 @@ This command gets the client running on localhost port 3000.
 
 Head over to http://localhost:3000/ and enjoy the game! 🎉
 
+<<<<<<< HEAD
+
 ## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. The **Issues** tab is a good place to begin!
@@ -61,6 +61,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 5. Push to the branch on your forked repo (`git push origin feature/AmazingFeature`)
 6. Open a pull request
+
+=======
+
+> > > > > > > ffd10e64a0a4b3322ea7832816647bf10975959e
 
 ## ❤️ Acknowledgements
 
